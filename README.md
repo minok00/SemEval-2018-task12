@@ -11,7 +11,8 @@ Our paper is GIST at SemEval-2018 Task 12: A network transferring inference know
 We changed original raw data into preprocessed data in advance, so this code use the preprocessed data.
 So this repo dosen't contain some code about preprocessing.
 And, All hyper parameter is set to be default value, which is same with our paper.
-You can check our code by just typing 'python GIST_hongking9.py' in command line
+You can check our code by just typing 'python GIST_hongking9.py' in command line.
+This code excecutes 10 time experiment with different random seeds as default.
 
 ## Library requirement
 theano, lasagne, pickle, numpy, os, time, mkl
