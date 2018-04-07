@@ -7,4 +7,17 @@ The official result is checked at [here](https://github.com/habernal/semeval2018
 
 Our paper is GIST at SemEval-2018 Task 12: A network transferring inference knowledge to Argument Reasoning Comprehension task
 
+## Code description
+We changed original raw data into preprocessed data in advance, so this code use the preprocessed data.
+So this repo didn't contain some code about preprocessing.
+And, All hyper parameter is set to be default value, which is same with our paper.
+You can check our code by just typing 'python GIST_hongking9.py'
+
+## Library requirement
+theano, lasagne, pickle, numpy, os, time, mkl
+
+## Our circumstance
+Window 10, python 2.7
+
+command display example
 ![command display example](./image/command_example.JPG)
